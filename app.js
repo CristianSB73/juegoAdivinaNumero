@@ -29,9 +29,6 @@ function verificarIntento(){
 
 function devuelveNumeroSecreto() {
     let numeroGenerado = Math.floor(Math.random()*numeroMaximo)+1;
-    console.log(numeroGenerado);
-    console.log(listaNumerosSecretos);
-    console.log(listaNumerosSecretos.length);
     if (listaNumerosSecretos.length == numeroMaximo ){
         asignarTextoElemento('p', 'Has alcansado el número máximo de juegos posibles');
     } else {
